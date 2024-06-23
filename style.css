@@ -1,0 +1,24 @@
+.button {
+    color: magenta;
+    background-color: blue;
+    border-color: yellowgreen;
+    border-width: 10px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 100%;
+    font-weight: 200;
+    text-size-adjust: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+#buttondiv {
+    padding: 100px;
+    text-align: center;
+}
+
+.raindivs {
+    padding: 2%;
+    color: red;
+}
