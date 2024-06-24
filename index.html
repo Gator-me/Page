@@ -1,13 +1,18 @@
 <html>
     <head>
         <title>Page Time</title>
+        <link rel="icon" href="poppy.dng">
         <link rel="stylesheet" href="style.css" type="text/css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        <div class="section" id="buttondiv">
-            <button class="button" onclick="handleClick()">Page Time Button</button>
+        <div class="parent" id="maindiv">
+            <div class="child" id="buttondiv">
+                <button class="button" onclick="handleClick()">Page Time Button</button>
+            </div>
+            <div class="child" id="imgdiv">
+                <img class="poppypic" src="poppy.dng" alt="Cutest dog ever" width="100%">
+            </div>
         </div>
-        <img class="poppypic" src="poppy.dng" alt="Cutest dog ever" width="100%">
     </body>
 </html>

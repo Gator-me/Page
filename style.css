@@ -3,15 +3,9 @@ html, body {
     height: 100%;
 }
 
-
-
 .button {
     color: magenta;
     background-color: blue;
-    border-color: yellowgreen;
-    border-width: 10px;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 100%;
     font-weight: 200;
     text-size-adjust: 50px;
     text-align: center;
@@ -20,12 +14,18 @@ html, body {
     font-family: fantasy;
 }
 
-#buttondiv {
-    padding: 100px;
+#maindiv {
+    padding: 10px;
+    align-items: center;
     text-align: center;
     background-color: black;
 }
 
+.child {
+    padding: 10px;
+}
+
 img.poppypic {
     padding: auto;
+    width: 50%;
 }
