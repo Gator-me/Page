@@ -1,3 +1,3 @@
 function handleClick() {
-    let rain = document.getElementsByClassName("raindivs");
+    let rain = alert("This is a message");
 }
