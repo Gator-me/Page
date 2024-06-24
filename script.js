@@ -9,4 +9,6 @@ function handleClick() {
         console.info(bg);
         elem.style.backgroundColor = "black";
     }
+    var audio = new Audio("goodboy.m4a");
+    audio.play();
 }
